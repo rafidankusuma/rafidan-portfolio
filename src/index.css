@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.particles-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+
+
+@layer base {
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+}
