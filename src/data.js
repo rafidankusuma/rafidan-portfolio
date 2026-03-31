@@ -1,9 +1,9 @@
-import HeroImage from "/assets/hero-img.png";
+import HeroImage from "/assets/hero-img.jpg";
 import SecondImage from "/assets/hero-img2.jpg";
 
 const Image = {
   HeroImage,
-  SecondImage
+  SecondImage,
 };
 
 export default Image;
@@ -133,7 +133,7 @@ export const listProyek = [
     desk: "Website company profile untuk menampilkan informasi perusahaan, layanan, dan portofolio klien. Dilengkapi animasi interaktif serta desain responsif.",
     tools: ["HTML", "CSS", "Javascript"],
     dad: "300",
-    link: "https://rafidankusuma.pelatihanwebdev.com/compro/"
+    link: "https://rafidankusuma.pelatihanwebdev.com/compro/",
   },
   {
     id: 3,
@@ -142,7 +142,7 @@ export const listProyek = [
     desk: "Website penjualan produk digital. Menyediakan katalog produk, halaman detail.",
     tools: ["Elementor Wordpress", "HTML", "CSS"],
     dad: "400",
-    link: "https://rafidankusuma.pelatihanwebdev.com/rtech/"
+    link: "https://rafidankusuma.pelatihanwebdev.com/rtech/",
   },
   {
     id: 4,
@@ -151,7 +151,7 @@ export const listProyek = [
     desk: "Website UMKM untuk menampilkan produk dan layanan secara profesional. Didesain responsif agar mudah diakses",
     tools: ["HTML", "CSS", "Javascript", "Elementor Wordpress"],
     dad: "500",
-    link: "https://rafidankusuma.pelatihanwebdev.com/wedank/"
+    link: "https://rafidankusuma.pelatihanwebdev.com/wedank/",
   },
   {
     id: 5,
@@ -160,7 +160,7 @@ export const listProyek = [
     desk: "Website untuk UMKM yang menampilkan produk wedang jahe tradisional, dengan informasi manfaat, resep, dan galeri produknya.",
     tools: ["HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS"],
     dad: "600",
-    link: "https://rafidankusuma.pelatihanwebdev.com/portfolio/"
+    link: "https://rafidankusuma.pelatihanwebdev.com/portfolio/",
   },
   {
     id: 6,
@@ -169,6 +169,6 @@ export const listProyek = [
     desk: "Website resmi Balai Latihan Kerja Kota Tangerang yang menampilkan informasi profil, program pelatihan, lowongan pekerjaan, dan berita terkini.",
     tools: ["HTML", "CSS", "Javascript", "Elementor Wordpress"],
     dad: "700",
-    link: "https://rafidankusuma.pelatihanwebdev.com/blk/"
+    link: "https://rafidankusuma.pelatihanwebdev.com/blk/",
   },
 ];

@@ -5,9 +5,9 @@ import PixelTransition from './components/PixelTransition';
 import './components/PixelTransition.css';
 import { useRef } from 'react';
 import VariableProximity from "./components/VariableProximity";
-import ScrollReveal from "./components/ScrollReveal";
+// import ScrollReveal from "./components/ScrollReveal";
 import ScrollVelocity from "./components/ScrollVelocity";
-import ScrollFloat from "./components/ScrollFloat";
+// import ScrollFloat from "./components/ScrollFloat";
 
 function App() {
   const containerRef = useRef(null);
@@ -44,11 +44,12 @@ function App() {
 
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Muhamad Rafidan Kusuma</h1>
-          <p className="text-base/loose mb-6 opacity-60">Lulusan SMK tahun 2019 umur 23 Tahun seorang yang cekatan, sigap,
-            dapat diandalkan bekerja sama dengan tim dan dapat berkomunikasi dengan baik.
-            Saya mempunyai ketertarikkan dalam bidang Programming dan Designer. terutama pada pembuatan Website dan Desain UI/UX.
-            Saya baru selesai mengikuti pelatihan web progamming yang di selenggaran oleh Pemerintah Kota Tangerang melalui blk
-            Kota Tangerang dan sudah berkompeten mempunyai sertifikasi Badan Nasional Bersertifikasi Profesi."
+          <p className="text-base/loose mb-6 opacity-60">"Lulusan SMK tahun 2019 umur 23 Tahun seorang yang cekatan, sigap,
+            dapat diandalkan bekerja sama dengan tim dan dapat berkomunikasi dengan baik. Saya mempunyai ketertarikan dalam 
+            bidang Programming dan Designer. Terutama pada pembuatan Website dan Desain UI/UX. Saya baru selesai mengikuti 
+            pelatihan web programming yang di selenggarakan oleh Pemerintah Kota Tangerang melalui BLK Kota Tangerang dan sudah 
+            berkompeten mempunyai sertifikasi Badan Nasional Bersertifikasi Profesi. Saat ini saya sedang melanjutkan kuliah 
+            untuk terus mengembangkan diri dan menambah wawasan"
           </p>
           <div className="flex items-center sm:gap-4 gap-2" >
             <a href="/portfolio/RafidanCV.pdf" download="CV Rafidan.pdf" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
