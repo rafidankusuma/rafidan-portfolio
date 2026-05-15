@@ -3,7 +3,7 @@ import { listTools, listProyek } from "./data";
 import Particles from "./Particles";
 import PixelTransition from "./components/PixelTransition";
 import "./components/PixelTransition.css";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import VariableProximity from "./components/VariableProximity";
 // import ScrollReveal from "./components/ScrollReveal";
 import ScrollVelocity from "./components/ScrollVelocity";
@@ -11,9 +11,48 @@ import ScrollVelocity from "./components/ScrollVelocity";
 
 function App() {
   const containerRef = useRef(null);
+
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowScroll(true);
+    }, 4000);
+
+    const handleScroll = () => {
+      if (window.scrolly > 4500) {
+        setShowScroll(false);
+      } else {
+        setShowScroll(true);
+      }
+    };
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <>
-      <div className="fixed inset-0 z-0 pointer-events-auto">
+      {showScroll && window.scrollY < 4500 && (
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="fixed bottom-6 right-6 z-50 cursor-pointer rounded-full border border-white/30 bg-white/20 p-3 shadow-lg backdrop-blur-xl transition duration-300 hover:scale-110 hover:bg-white/30"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M5 15l7-7 7 7"
+            />
+          </svg>
+        </button>
+      )}
+      <div className="fixed inset-0 z-0 pointer-events-none">
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
           particleCount={200}
@@ -71,7 +110,7 @@ function App() {
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="/portfolio/RafidanCV.pdf"
+              href="/portfolio/CV_RAFIDAN.pdf"
               download="CV Rafidan.pdf"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
