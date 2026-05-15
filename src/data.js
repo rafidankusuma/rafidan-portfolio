@@ -157,7 +157,7 @@ export const listProyek = [
     id: 5,
     gambar: Proyek5,
     nama: "Web Portfolio",
-    desk: "Website untuk UMKM yang menampilkan produk wedang jahe tradisional, dengan informasi manfaat, resep, dan galeri produknya.",
+    desk: "Website portfolio pribadi untuk menampilkan profil, skill, dan project web development dengan desain modern dan responsif.",
     tools: ["HTML", "CSS", "Javascript", "ReactJS", "TailwindCSS"],
     dad: "600",
     link: "https://rafidankusuma.pelatihanwebdev.com/portfolio/",
