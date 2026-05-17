@@ -99,18 +99,16 @@ function App() {
             Hi, Saya Muhamad Rafidan Kusuma
           </h1>
           <p className="text-base/loose mb-6 opacity-60">
-            "Lulusan SMK tahun 2019, usia 23 tahun, yang dikenal sebagai pribadi
-            cekatan, adaptif, dan bertanggung jawab. Memiliki minat kuat di
-            bidang Programming dan Design, dengan fokus pada pengembangan
-            website dan UI/UX. Mampu bekerja dalam tim maupun secara mandiri
-            serta memiliki komunikasi yang baik. Memiliki sertifikasi BNSP
-            sebagai bukti kompetensi. Saat ini aktif melanjutkan pendidikan
-            untuk terus mengembangkan skill dan mengikuti perkembangan
-            teknologi."
+            "Pribadi yang cekatan, adaptif, dan bertanggung jawab dengan minat
+            kuat di bidang Programming dan Design, khususnya pengembangan
+            website dan UI/UX. Mampu bekerja secara tim maupun mandiri serta
+            memiliki komunikasi yang baik. Memiliki sertifikasi Badan Nasional Sertifikasi Profesi 
+            BNSP sebagai bukti kompetensi. Saat ini aktif melanjutkan pendidikan untuk terus
+            mengembangkan skill dan mengikuti perkembangan teknologi."
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="/portfolio/CV_RAFIDAN.pdf"
+              href="/Portfolio/CV_RAFIDAN.pdf"
               download="CV Rafidan.pdf"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
