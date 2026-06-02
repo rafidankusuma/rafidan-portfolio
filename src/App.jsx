@@ -99,16 +99,20 @@ function App() {
             Hi, Saya Muhamad Rafidan Kusuma
           </h1>
           <p className="text-base/loose mb-6 opacity-60">
-            "Pribadi yang cekatan, adaptif, dan bertanggung jawab dengan minat
-            kuat di bidang Programming dan Design, khususnya pengembangan
-            website dan UI/UX. Mampu bekerja secara tim maupun mandiri serta
-            memiliki komunikasi yang baik. Memiliki sertifikasi Badan Nasional Sertifikasi Profesi 
-            BNSP sebagai bukti kompetensi. Saat ini aktif melanjutkan pendidikan untuk terus
-            mengembangkan skill dan mengikuti perkembangan teknologi."
+            "Halo, saya adalah pribadi yang disiplin, cepat belajar, adaptif,
+            dan bertanggung jawab. Memiliki pengalaman di bidang retail dan
+            manufaktur dengan keterlibatan dalam operasional bisnis, pelayanan
+            pelanggan, pengelolaan stok, serta koordinasi tim untuk mendukung
+            pencapaian target perusahaan. Selain itu, saya memiliki minat di
+            bidang Programming dan Design, khususnya pengembangan website dan
+            UI/UX, serta didukung oleh sertifikasi Badan Nasional Sertifikasi
+            Profesi BNSP sebagai bukti kompetensi. Mampu bekerja secara individu
+            maupun tim serta siap berkontribusi secara optimal dalam lingkungan
+            kerja yang dinamis. "
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="/CV_RAFIDAN.pdf"
+              href="Portfolio/CV_RAFIDAN.pdf"
               download="CV Rafidan.pdf"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
@@ -166,8 +170,16 @@ function App() {
             loading="lazy"
           />
           <p className="text-base/loose mb-10">
-            Halo, saya adalah pribadi yang disiplin, cepat belajar, adaptif, dan bertanggung jawab. Memiliki pengalaman di bidang retail dan manufaktur dengan keterlibatan dalam operasional bisnis, pelayanan pelanggan, pengelolaan stok, serta koordinasi tim untuk mendukung pencapaian target perusahaan. Selain itu, saya memiliki minat di bidang Programming dan Design, khususnya pengembangan website dan UI/UX, serta didukung oleh sertifikasi BNSP sebagai bukti kompetensi. Mampu bekerja secara individu maupun tim serta siap berkontribusi secara optimal dalam lingkungan kerja yang dinamis.
-
+            Hi perkenalkan saya Muhamad Rafidan Kusuma, seorang Junior Web
+            Development Dan Designer untuk UI/UX Design maupun Product Digital,
+            saya percaya bahwa desain dan fungsionalitas harus berjalan
+            beriringan, sehingga setiap proyek yang saya kembangkan tidak hanya
+            terlihat menarik tetapi juga memberikan pengalaman pengguna yang
+            optimal. Dengan semangat yang tinggi dan rasa ingin tahu terhadap
+            teknologi terbaru, saya selalu berusaha untuk mengasah keterampilan
+            serta mengikuti tren industri. Saya menyukai tantangan baru, terbuka
+            terhadap masukan, dan senang bekerja sama dalam tim serta bermanfaat
+            bagi banyak orang.
           </p>
           <div className="flex items-center justify-between">
             <img
